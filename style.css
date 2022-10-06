@@ -133,7 +133,7 @@
 
 
 .abc .ab{
-    background: url('bg.jpg');
+    /* background: url('bg.jpg'); */
     /* display: flex;
     justify-content: center;
     justify-items: center; */
@@ -149,13 +149,15 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    tex
+    font-size: 2.4rem;
+    color: #fff;
 }
 
 .abc .ab p{
     display: flex;
     justify-content: center;
     justify-items: center;
+    color: rgba (0, 0, 1, 0.3);
 }
 
 
@@ -169,11 +171,14 @@
 /* Footer section CSS */
 
 .footer{
-    background:var(--black);
+    background:rebeccapurple;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: s;
 }
 
-.footer .share{
+.footer .foot{
     padding:1rem 0;
 }
 
